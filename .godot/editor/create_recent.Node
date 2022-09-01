@@ -1,0 +1,7 @@
+ColorRect
+Sprite2D
+Node2D
+VisibleOnScreenEnabler2D
+Button
+VBoxContainer
+RichTextLabel

@@ -1,0 +1,21 @@
+0b7126e0c6e86d3ec295a72f5aa6e0bd
+::res://::1662051862
+export_presets.cfg::TextFile::-1::1662050023::0::1::::<><>::
+icon.png::CompressedTexture2D::5047239417506767314::1661950748::1661950771::1::::<><>::
+::res://android/::1661960993
+::res://android/plugins/::1661960993
+::res://Assets/::1662051266
+::res://Assets/Fonts/::1661960455
+AttackGraffiti-3zRBM.ttf::FontFile::7961572247062937731::1661960437::1661960455::1::::<><>::
+ChailceNogginRegular-2OXoW.ttf::FontFile::5367655053086177495::1661960446::1661960455::1::::<><>::
+MangabeyRegular-rgqVO.otf::FontFile::3990937392444725554::1661960452::1661960455::1::::<><>::
+::res://Assets/Icon/::1662050799
+::res://Assets/Mouse/::1662052078
+mouse1.png::CompressedTexture2D::1423091447937355128::1662052113::1662052115::1::::<><>::
+::res://Assets/Splash Screen/::1662045776
+Main Background.png::CompressedTexture2D::7298079725829412707::1662045771::1662045776::1::::<><>::
+RyashLogo.blend::PackedScene::9053582470169365353::1661955970::1661956389::1::::<><>::
+::res://Scenes/::1662052080
+world.tscn::PackedScene::568492484607822948::1662049979::0::1::::<><>::
+splash_screen.gd::GDScript::-1::1662051221::0::1::::<>Node2D<>::
+splash_screen.tscn::PackedScene::2758540169422947609::1662052080::0::1::::<><>::uid://db8ikoxk1kypv<>res://Scenes/splash_screen.gd<>uid://dlov6xb5djjkt<>uid://ciqeq2v3kh8q2
