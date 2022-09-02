@@ -1,3 +1,5 @@
 res://Scenes/splash_screen.tscn
+res://Levels/world.tscn
 res://Scenes/splash_screen.gd
-res://Scenes/world.tscn
+res://Levels/level_1.tscn
+res://Levels/level_1.gd

@@ -1,5 +1,8 @@
+CanvasLayer
+CanvasModulate
 ColorRect
 Sprite2D
+TileMap
 Node2D
 VisibleOnScreenEnabler2D
 Button

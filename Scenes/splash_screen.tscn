@@ -58,13 +58,19 @@ theme_override_fonts/font = ExtResource("3_mp052")
 theme_override_font_sizes/font_size = 35
 text = "Credits"
 
-[node name="onEntryFade" type="ColorRect" parent="."]
+[node name="Canvas" type="CanvasLayer" parent="."]
+layer = 100
+
+[node name="FadeEffect" type="ColorRect" parent="Canvas"]
+offset_top = 8.0
 offset_right = 1024.0
-offset_bottom = 576.0
+offset_bottom = 584.0
+mouse_filter = 2
 color = Color(1, 1, 1, 0)
 
 [connection signal="mouse_entered" from="VBoxContainer/playBtn" to="." method="_playBtn_hovered"]
 [connection signal="mouse_exited" from="VBoxContainer/playBtn" to="." method="_playBtn_not_hovered"]
+[connection signal="pressed" from="VBoxContainer/playBtn" to="." method="_on_play_btn_pressed"]
 [connection signal="mouse_entered" from="VBoxContainer/optionBtn" to="." method="_on_option_btn_mouse_entered"]
 [connection signal="mouse_exited" from="VBoxContainer/optionBtn" to="." method="_on_option_btn_mouse_exited"]
 [connection signal="mouse_entered" from="VBoxContainer/creditBtn" to="." method="_on_credit_btn_mouse_entered"]
