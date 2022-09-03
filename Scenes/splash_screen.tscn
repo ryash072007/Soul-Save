@@ -69,3 +69,4 @@ color = Color(1, 1, 1, 0)
 [connection signal="mouse_exited" from="VBoxContainer/optionBtn" to="." method="_on_option_btn_mouse_exited"]
 [connection signal="mouse_entered" from="VBoxContainer/creditBtn" to="." method="_on_credit_btn_mouse_entered"]
 [connection signal="mouse_exited" from="VBoxContainer/creditBtn" to="." method="_on_credit_btn_mouse_exited"]
+[connection signal="pressed" from="VBoxContainer/creditBtn" to="." method="_on_credit_btn_pressed"]

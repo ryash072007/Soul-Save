@@ -1,5 +1,13 @@
+<<<<<<< Updated upstream
 ColorRect
 Sprite2D
+=======
+Sprite2D
+CanvasLayer
+CanvasModulate
+ColorRect
+TileMap
+>>>>>>> Stashed changes
 Node2D
 VisibleOnScreenEnabler2D
 Button

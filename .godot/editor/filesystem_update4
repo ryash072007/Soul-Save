@@ -1,3 +1,11 @@
 res://Scenes/splash_screen.tscn
+<<<<<<< Updated upstream
 res://Scenes/splash_screen.gd
 res://Scenes/world.tscn
+=======
+res://Scenes/credit.tscn
+res://Levels/level_1.gd
+res://Scenes/FadeEffect.tscn
+res://Scenes/FadeEffect.gd
+res://Scenes/splash_screen.gd
+>>>>>>> Stashed changes

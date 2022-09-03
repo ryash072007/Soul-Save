@@ -58,5 +58,21 @@ func _on_credit_btn_mouse_exited():
 
 func _fade_effect_entry():
 	var tween = create_tween()
+<<<<<<< Updated upstream
 	tween.tween_property($onEntryFade, "color", Color(0,0,0,0), 2)
 	tween.tween_callback($onEntryFade.queue_free)
+=======
+	tween.tween_property($Canvas/FadeEffect, "color", Color.TRANSPARENT, 2)
+
+
+func _on_play_btn_pressed():
+	var tween = create_tween()
+	tween.tween_property($Canvas/FadeEffect, "color", Color.BLACK, 2)
+	tween.tween_callback(get_tree().change_scene.bind("res://Levels/level_1.tscn"))
+
+
+func _on_credit_btn_pressed():
+	var tween = create_tween()
+	tween.tween_property($Canvas/FadeEffect, "color", Color.BLACK, 2)
+	tween.tween_callback(get_tree().change_scene.bind("res://Scenes/credit.tscn"))
+>>>>>>> Stashed changes
